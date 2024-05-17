@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button, input:where([type='submit']) {
+    background-color: black;
+    color: white;
+    padding: 2px 1rem;
+    margin-top: 1rem
+}
